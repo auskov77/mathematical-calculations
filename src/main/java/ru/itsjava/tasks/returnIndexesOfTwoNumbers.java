@@ -19,6 +19,10 @@ public class returnIndexesOfTwoNumbers {
         System.out.println("solution_1.twoSum(nums, target) = " + Arrays.toString(solution_1.twoSum(nums, target)));
         System.out.println("solution_2.twoSum(nums, target) = " + Arrays.toString(solution_2.twoSum(nums, target)));
         System.out.println("solution_3.twoSum(nums, target) = " + Arrays.toString(solution_3.twoSum(nums, target)));
+
+        
+
+
     }
 }
 

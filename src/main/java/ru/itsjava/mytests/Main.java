@@ -38,6 +38,10 @@ public class Main {
 //        }
 //        System.out.println(myList);
 //        return myList.size();
+//
+//        // результат - [11, 22, 33, 44, 100, 11, 4, 5, 10, 11, 3, 7]
+//        //[11, 22, 33, 44, 100, 4, 5, 10, 3, 7]
+//        //10
 //    }
 
 //    public static void main(String[] args) {
@@ -46,12 +50,16 @@ public class Main {
 //        aMap.put(new A(), 2);
 //
 //        System.out.println(aMap.get(new A()));
+//
+//        // результат - null
 //    }
 
 //    public int i;
 //    public static void main(String[] args) {
 //        Main sc = new Main();
 //        System.out.println(sc.i);
+//
+//        // результат - 0
 //    }
 
 //    public static void main(String[] args) {
@@ -70,13 +78,30 @@ public class Main {
 //        }else {
 //            System.out.println("Not equal");
 //        }
+//
+//        // результат - Not equal
+//    }
+
+//    public static void main(String[] args) {
+//        Sth sth = new Sth();
+//        sth.setNum(13);
+//        int num = sth.getSth().getNum();
+//        System.out.println(++num);
+//
+//        // результат - NullPointerException
+//    }
+
+
+//    // Цикл выведет числа от 1 до 10 включительно
+//    public static void main(String[] args) {
+//        int i=1;
+//        while (i<=10){
+//            System.out.println(i);
+//            i++;
+//        }
 //    }
 
     public static void main(String[] args) {
-        Sth sth = new Sth();
-        sth.setNum(13);
-        int num = sth.getSth().getNum();
-        System.out.println(++num);
-    }
 
+    }
 }
