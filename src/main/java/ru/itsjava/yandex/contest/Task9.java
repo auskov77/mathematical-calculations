@@ -46,8 +46,8 @@ public class Task9 {
     private static final int MAX_NUMBER = 101;
     private static final int MAX_BUFF_SIZE = 5;
 
-    private static int[] sort = new int[MAX_NUMBER];
-    private static char[] buffChars = new char[MAX_BUFF_SIZE];
+    private static final int[] sort = new int[MAX_NUMBER];
+    private static final char[] buffChars = new char[MAX_BUFF_SIZE];
     private static int buffInt = 0;
     private static int count = 0;
     private static int local = 0;
