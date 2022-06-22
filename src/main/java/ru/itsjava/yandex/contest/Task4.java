@@ -45,7 +45,7 @@ public class Task4 {
     }
 
     private static int readLine() throws IOException {
-        return Integer.parseInt(bufferedReader.readLine());
+        return Integer.valueOf(bufferedReader.readLine());
     }
 
     private static void writeLine(int IntToFile) throws IOException {
