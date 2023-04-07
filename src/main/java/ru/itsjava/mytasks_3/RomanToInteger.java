@@ -34,10 +34,8 @@ public class RomanToInteger {
             }
             if (4 * n < a) {
                 a = a - n;
-//                a -= n;
             } else {
                 a = a + n;
-//                a += n;
             }
         }
         return a;
